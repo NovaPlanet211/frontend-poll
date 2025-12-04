@@ -1,5 +1,5 @@
 // Adres backendu na Render (zmień na swój!)
-const API_URL = "https://poll-backend.onrender.com/api";
+const API_URL = "https://backend-poll-rxx8.onrender.com/";
 
 // --- Pobieranie pytań ---
 async function loadQuestions() {
