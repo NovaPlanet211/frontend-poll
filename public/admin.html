@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Panel admina</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Panel admina</h2>
+
+  <h3>Dodaj pytanie</h3>
+  <input type="text" id="newQuestion" placeholder="Treść pytania">
+  <input type="text" id="newAnswers" placeholder="Odpowiedzi, oddzielone przecinkami">
+  <button onclick="addQuestion()">Dodaj</button>
+
+  <h3>Edytuj wyniki</h3>
+  <div id="admin"></div>
+
+  <script src="script.js"></script>
+  <script>loadAdmin();</script>
+</body>
+</html>
